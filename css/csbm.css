@@ -1,0 +1,61 @@
+*,
+body,
+button,
+input,
+footer,
+textarea {
+    font-family: 'Playfair Display', serif;
+}
+
+.h6-csbm {
+    font-size: 18px;
+}
+
+.h5-csbm {
+    font-size: 18px;
+}
+
+.p-csbm {
+    font-size: 15px;
+    color: #777;
+}
+
+.hr-csbm {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: none; 
+    background-color: rgb(201, 201, 201); 
+    height: 1px; 
+    opacity: 0.8;
+}
+
+.h1-csbm {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.h3-csbm {
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.container-csbm {
+    margin-left: 110px;
+    margin-right: 110px;
+    letter-spacing: 0.3px;
+    line-height: 1.75;
+}
+
+.form-csbm {
+    text-align: justify;
+}
+
+.form-csbm ul li{
+    color: #777;
+}

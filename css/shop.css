@@ -1,0 +1,138 @@
+.body-shop,
+.body-sale-off {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container-shop,
+.container-sale-off {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  max-width: 100%;
+}
+
+.item-shop,
+.item-sale-off {
+  margin: 5px;
+  padding: 5px;
+  background-color: #ffffff;
+  border-radius: 1px;
+  text-align: left;
+  max-width: 30%;
+  position: relative;
+}
+
+.item-shop img,
+.item-sale-off img {
+  max-width: 100%;
+  width: 100%;
+  height: 275px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  transition: filter 0.3s ease-in-out;
+}
+
+.item-shop:hover img,
+.item-sale-off:hover img {
+  filter: brightness(50%);
+}
+
+.item-shop h2,
+.item-sale-off h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.item-shop p,
+.item-sale-off p {
+  margin-bottom: 20px;
+}
+
+.item-shop .discount,
+.item-sale-off .discount {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: red;
+  color: white;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.item-shop .original-price,
+.item-sale-off .original-price {
+  text-decoration: line-through;
+  opacity: 0.7;
+  color: #777;
+}
+
+.item-shop .price,
+.item-sale-off .price {
+  color: #181515;
+  font-size: 18px !important;
+  font-family: 'Montserrat', sans-serif !important;
+  display: block;
+}
+
+.item-shop a,
+.item-sale-off a {
+  text-decoration: none;
+}
+
+/* CSS cho phần lọc */
+.filter-shop,
+.filter-sale-off {
+  display: block;
+  padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+  -moz-padding-start: calc(0.75rem - 3px);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  display: flex;
+  justify-content: center;
+}
+
+/* CSS cho tiêu đề "Sort By" và "Category" */
+.filter-shop h4,
+.filter-sale-off h4 {
+  color: #000;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 11px !important;
+  font-family: 'Montserrat', sans-serif !important;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 17px 20px;
+}
+
+/* CSS cho các phần select */
+.filter-shop select,
+.filter-sale-off select {
+  padding: 8px;
+  font-size: 16px;
+  width: 400px;
+  height: 50px;
+  border: 1px solid #000;
+}
+
+/* CSS cho lựa chọn thứ 2 (Category) */
+.filter-shop select:last-child,
+.filter-sale-off select:last-child {
+  margin-left: 1px;
+}
+
+.banner-shop h1,
+.banner-sale-off h1 {
+  margin-top: 11%;
+  color: #181515;
+  letter-spacing: 2px;
+  font-weight: 30;
+  font-size: 50px !important;
+  font-family: 'Montserrat', sans-serif !important;
+  text-align: center;
+}

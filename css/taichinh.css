@@ -1,0 +1,196 @@
+.body-taichinh {
+  margin: 0;
+  padding: 0 100px;
+  margin-top: 100px;
+}
+
+.header-taichinh {
+  font-size: 25px;
+  font-weight: lighter;
+  font-family: 'Times New Roman', Times, serif !important;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.menu-taichinh {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.menu-item-taichinh {
+  font-weight: bold;
+  padding: 0 50px;
+  cursor: pointer;
+  margin: 0 10px;
+  position: relative;
+}
+
+.menu-item-taichinh a {
+  text-decoration: none;
+  color: #b7b7b7;
+  transition: color 0.3s;
+}
+
+.menu-item-taichinh a:hover {
+  color: #000000;
+}
+
+.menu-item-taichinh::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: transparent;
+  transition: background-color 0.3s;
+}
+
+.menu-item-taichinh:hover::after {
+  background-color: #000000;
+}
+
+.image-taichinh {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.image-container-taichinh {
+  width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.image-container-taichinh img {
+  width: 100%;
+  height: 660px;
+  object-fit: cover;
+}
+
+.caption-taichinh {
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.caption-taichinh p {
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif !important;
+}
+
+.columns-taichinh {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.column-taichinh {
+  flex-basis: 33.33%;
+  margin-bottom: 100px;
+}
+
+.column-taichinh img {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+}
+
+.column-taichinh p {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  text-align: justify;
+}
+
+.footer-taichinh {
+  text-align: center;
+  position: relative;
+  padding: 20px 0;
+}
+
+.footer-taichinh img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.footer-taichinh .button-container-taichinh {
+  position: absolute;
+  bottom: 50px;
+  left: 20px;
+}
+
+.footer-taichinh .button-container-taichinh a {
+  display: inline-block;
+  padding: 10px 50px;
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.footer-taichinh .button-container-taichinh a:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.footer-taichinh .caption-container-taichinh {
+  position: absolute;
+  top: 160px;
+  color: #edededf5;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000000;
+  max-width: 1050px;
+}
+
+.footer-taichinh .caption-container-taichinh p {
+  margin-left: 350px;
+  font-size: 26px;
+  letter-spacing: 0.5;
+  text-align: center;
+  background: linear-gradient(45deg, #ff8a00, #e52e71, #3494e6, #07a87d);
+  background-size: 400% 400%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: gradientAnimation 1s infinite linear;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.hr-taichinh {
+  border: none;
+  background-color: rgb(0, 0, 0);
+  height: 0.4px;
+  opacity: 0.8;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.h4-taichinh {
+  margin-top: 50px;
+  font-size: 25px;
+  text-align: left;
+}
+
+.footer-taichinh .caption-container-taichinh p.taichinh {
+  background: linear-gradient(360deg, #00ff00, #ffea00, #ff6600, #9400d3, #ffffff);
+  background-size: 400% 400%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: gradientAnimation 10s infinite linear;
+}
